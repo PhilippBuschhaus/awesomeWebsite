@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+/* 1% margin = 6% total margin for 3 sections*/
+section {
+  float: left;
+  width: 31.3%;
+  border: 1px;
+  border-style: solid;
+  padding: 20px;
+  margin: 1%;
+  background-color: rgb(223, 223, 168);
+  font-family: cursive;
+}
+h1 {
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  margin: 2% 1% 2% 1%;
+  background-color: thistle;
+  font-family: cursive;
+  font-size: 1.75em;
+}
+h3 {
+  font-size: 1.25em;
+  border: 1px;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  position: relative;
+  margin: unset;
+  text-align: center;
+  bottom: 20px;
+  left: 20px;
+  float: right;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+}
+#chicken {
+  background-color: thistle;
+}
+#beef {
+  background-color: rgb(155, 212, 214);
+}
+#sushi {
+  background-color: yellowgreen;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* 1% margin = 4% total margin for 2 sections*/
+  section {
+    width: 48%;
+  }
+  /* 1% margin = 2% total margin for 1 section*/
+  #three {
+    clear: both;
+    width: 98%;
+  }
+}
+@media (max-width: 767px) {
+  /* 1% margin = 2% total margin for 1 section*/
+  section {
+    clear: left;
+    width: 98%;
+  }
+}
