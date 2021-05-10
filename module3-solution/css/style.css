@@ -19,3 +19,7 @@
 #heading {
   margin-bottom: 20px;
 }
+.navbar-nav li {
+  border: solid black;
+  margin: 10px 0px;
+}
