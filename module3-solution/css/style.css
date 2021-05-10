@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+  #bs-example-navbar-collapse-1 {
+    text-align: center;
+    background-color: rgb(245, 201, 172);
+  }
+  #main-content {
+    margin: auto 8%;
+  }
+}
+.navbar {
+  background-color: blanchedalmond;
+}
+#main-content {
+  background-color: cornflowerblue;
+}
+#text-heading {
+  margin-top: 10px;
+}
+#heading {
+  margin-bottom: 20px;
+}
